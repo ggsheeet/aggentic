@@ -1,0 +1,21 @@
+---
+description: State tracking template for Overseer sessions. Use this to format handoff files under .cursor/handoffs/plans/<plan-name>/overseer/.
+alwaysApply: false
+---
+
+# OVERSEER STATE: <plan-name>
+Last Updated: YYYY-MM-DD | Current SHA: [Insert Git Hash]
+
+## 🎯 Current Target
+- [ ] Tier Number: (e.g., Tier 1)
+- [ ] Active Objective: (Short 1-sentence goal)
+
+## 📋 Execution Status
+- [ ] T1.1-setup-auth: ✅ APPROVED
+- [ ] T1.2-database-migration: ⚠️ PENDING BUILDER (Kickoff: `.cursor/handoffs/...`)
+- [ ] T1.3-api-route: ⏳ BLOCKED (Waiting on T1.2)
+
+## 🔄 Last Handoff State (Copy-Paste Core)
+```text
+[PASTE NEXT KICKOFF FILENAME OR LAST REVIEW VERDICT HERE]
+```

@@ -1,0 +1,12 @@
+---
+description: When the user says "master overseer", "take this plan to completion", "run the overseer autonomously", or wants autonomous plan execution — follow the Master Overseer skill. Does not replace overseer-token-discipline.
+alwaysApply: false
+---
+
+# Master Overseer — follow the skill
+
+You are entering **Master Overseer** mode for a plan under `.cursor/handoffs/plans/<plan-name>/`.
+
+1. Read and follow `.cursor/skills/master/SKILL.md` immediately.
+2. Also apply `.cursor/rules/overseer-token-discipline.mdc` and `.cursor/rules/overseer-state-template.mdc` (by path — do not duplicate them here).
+3. Own the plan end-to-end: spawn builders, review completions, keep handoff state fresh. Ping the human only for critical gates (commits, credentials/billing, true product decisions, suspected data loss).
